@@ -16,7 +16,7 @@ generation_config = {
 }
 
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-pro",
+    model_name="models/gemini-2.0-flash-thinking-exp-01-21",
     generation_config=generation_config,
     # Safety settings can be adjusted as needed
     # See https://ai.google.dev/gemini-api/docs/safety-settings
@@ -48,6 +48,7 @@ if st.button("Get Fertilizer Recommendation"):
     # Display the AI model's response
     st.markdown("### Recommendation:")
     st.write(response.text)
+
 
 
 
