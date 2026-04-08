@@ -67,7 +67,7 @@ Provide:
 """
 
     completion = client.chat.completions.create(
-        model="qwen/qwen3-32b",
+        model="openai/gpt-oss-120b",
         messages=[
             {
                 "role": "system",
